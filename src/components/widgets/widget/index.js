@@ -142,8 +142,8 @@ class Widget extends PureComponent {
               {!isDev && (
                 <div styleName="error-message">
                   <div styleName="error-detail">
-                    Ops, somehting went wrong.<br />
-                    Press the below button to refresh this widget.
+                    Oops, something went wrong.<br />
+                    Press the button below to refresh this widget.
                   </div>
                   <Button onClick={this.onRefresh}>
                     <Icon name="refresh" className="-medium" theme={theme} />
